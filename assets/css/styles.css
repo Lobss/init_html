@@ -1,0 +1,133 @@
+:root {
+    --main--title-color: rgb(200,89,10);
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --danger: #dc3545;
+    --warning: #ffc107;
+    --info: #17a2b4;
+    --dark: #343a40;
+    --light: #ffffff;
+}
+
+/**
+*Global styles
+    CSS Rule
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em; /* em correspond à l'unité de référence définie dans le navigateur : 16px */
+    color: var(--dark);
+}
+
+
+ul{
+    list-style-type: none;
+}
+
+nav{
+    color: var(--light);
+}
+
+.height{
+    height: 10vh;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li a{
+    transform: rotate(0deg);
+    text-decoration: none;
+    color: inherit; 
+    
+}
+
+nav ul li a.btn {
+    transition: all 0.6s 0.2s ease-in, transform 0.4s 0.4s linear, background-color 0.8s 0.7s ease-out;
+}
+
+nav ul li a.btn:hover {
+    color: var(--dark);
+    background-color: var(--light); 
+    transform: rotate(360deg);
+    
+}
+
+footer address li {
+    list-style-type: none;
+}
+
+footer address li ul li a{
+    text-decoration: none;
+    color: var(--ligth);
+}
+
+h1,h2{
+    color:  var(--main--title-color);
+}
+
+#page-html section#section-html {
+    background-color: var(--ligth);
+}
+
+#page-html #section-html h2{
+    color: var(--info);
+}
+
+abbr {
+    text-decoration:none;
+    font-weight: bold;
+}
+
+.dropdown {
+    color: var(--info);
+}
+
+.btn{
+    display: inline-block;
+    border: solid 1px var(--success);
+    width: 8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding: 1em 1em 1em 1em;
+}
+
+.bg_light {
+    background-color: var(--light);
+    color: var(--dark);
+}
+
+.bg-dark {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.shadowed {
+    box-shadow: var(--secondary)1px 3px;
+}
+section {
+    height: 50vh;
+}
+
+#section-html {
+    background-color: var(--info);
+}
+
+#section-css {
+    background-color: var(--warning);
+}
+/*
+header nav ul li {
+    width: 10em;
+    margin-right: 0.5em;
+}
+*/
+.margin-right {
+    margin-right: 0.5em;
+
+}

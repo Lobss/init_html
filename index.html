@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>   
+    <head>
+        <!-- Elément head: instructions envoyées au naviagteur -->
+        <meta charset="uf-8">
+        
+        <title>Découvrir le HTML</title>
+        
+        <link href="./assets/css/styles.css" rel="stylesheet">
+        <!-- load icomoon styles-->
+        <link href="./assets/css/style.css" rel="stylesheet">
+
+    </head>
+    
+    <body>
+        <h1> Découvrir le HTML </h1>
+        <header>
+        
+            
+            <p>
+                <!-- abbr avec l'attribut title pour donner la signification 
+                    de l'abbréviation définie 
+                -->
+                L'histoire du <abbr title="Hyper Text Markup Language"class="dropdown">HTML</abbr> à travers les âges
+            </p>
+            <nav class="bg-dark"> <!--élément qui regroupe des balises de navigation -->
+                <ul class="flex-container"><!-- Conteneur de liste-->
+                    <!-- Lien interne vers une section -->
+                    <li>
+                        <a class= "btn bg-dark " href="#" title="accueil">
+                            <span class="icon-home"></span> ACCUEIL
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn bg-dark " href="#" title="HTML la référence">
+                            <span class="icon-html-five"></span> HTML
+                        </a>
+
+                    </li><!-- Ligne de liste -->
+                    <li>
+                        <a class="btn bg-dark " href="#" title="CSS la référence">
+                           <span class="icon-css3"></span> CSS
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn bg-dark" href="#" title="mail">
+                            <span class="icon-envelop margin-right"></span>MAIL
+                        </a>
+                    </li>
+                    <li>
+                        <a class="btn bg-dark" href="#" title="call">
+                            <span class="icon-phone margin-right"></span>APPEL
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>  
+            <section id ="section-html">
+                <header>
+                    <h2>Le langage HTML</h2>
+                    <p>
+                        Le <strong>langage HTML</strong> sert à définir le sens des contenus d'une page.
+                        <em>Il n'est en aucun cas responsable de l'enrichissement</em> de ces contenus.
+                    </p>
+                </header>
+                <article>
+                    <header>
+                        <h3> Deux familles de balises HTML</h3>
+                    </header>
+                    <p>
+                        Les balises bloc définissent un rectangle occupant 
+                        la totlalité de la largeur disponible dans le nabigateur.
+                    </p>
+                    <ul>
+                        <li>
+                            <a class="btn bg-dark shadoxed" href="page-html.html"  target="_new"> En savoir plus </a>
+                        </li>
+                    </ul>
+                    <footer>
+                        <cite title="w3c.org">
+                            <a href="https://www.w3.org" title="W3C" target="_new">
+                                Bloc tags
+                            </a>
+                        </cite>
+                    </footer>
+                </article>
+                
+            </section>
+
+            <section id="section-css">
+                <header>
+                    <h2> Le langage CSS </h2>
+                    <p>
+                        le langage CSS est responsabele de la forme des contenus.
+                    </p>
+                </header>
+            </section>
+        </main>    
+
+        <footer class= bg-dark>
+            <address>
+                
+                <li> Nos réseaux sociaux 
+                        
+                    <ul>
+                        <li>
+                            <a href="https://www.instagram.com"  target="_new" title="Follow Us">
+                                <span class="icon-instagram"></span> Instagram 
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com"  target="_new" title="Follow Us">
+                                <span class="icon-facebook2"></span>Facebook
+                            </a>
+                        </li>
+
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="https://www.twitter.com" target="_new" title="Follow Us">
+                                <span class="icon-twitter"></span> Twitter
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </li>
+
+            </address>
+        </footer>
+    </body>
+</html><!-- Fin du document HTML-->
