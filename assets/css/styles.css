@@ -82,6 +82,13 @@ abbr {
     font-weight: bold;
 }
 
+button {
+    width: 50px;
+    background-color: var(--dark); 
+    border: double 5px var(--main--title-color);
+    color: var(--light);
+}
+
 .dropdown {
     color: var(--info);
 }
@@ -131,11 +138,21 @@ header nav ul li {
     margin-right: 0.5em;
 
 }
+#burger-btn {
+    display: none;
+}
 
 
 @media screen and (max-width: 576px){
-    .flex-container {
+   header nav ul li a.flex-container {
         flex-direction: column;
     }
-
+    #burger-btn {
+        display: block;
+    }
+    #menu-btn {
+        display: none;
+    }
+    
 }
+
