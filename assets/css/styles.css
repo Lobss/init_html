@@ -83,7 +83,7 @@ abbr {
     font-weight: bold;
 }
 
-button {
+nav button {
     width: 50px;
     background-color: var(--dark); 
     border: double 5px var(--main--title-color);

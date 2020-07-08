@@ -20,17 +20,18 @@
     </head>
     
     <body>
-        <h1> Découvrir le HTML </h1>
-        <header>
+        
+        <header class="row">
+            <h1 class="col-12 col-xl-4"> Découvrir le HTML </h1>
         
             
-            <p>
+            <p class="clo-12 col-xl-8">
                 <!-- abbr avec l'attribut title pour donner la signification 
                     de l'abbréviation définie 
                 -->
                 L'histoire du <abbr title="Hyper Text Markup Language"class="dropdown"> HTML</abbr> à travers les âges
             </p>
-            <nav class="bg-dark"> <!--élément qui regroupe des balises de navigation -->
+            <nav class="bg-dark col-12 col-xl-12"> <!--élément qui regroupe des balises de navigation -->
                <!--Burger menu button:
                         Display pnly when device width < 578px -->
                 <button id="burger-btn">
@@ -145,5 +146,29 @@
 
             </address>
         </footer>
+
+        <!-- Template pour l'affichage du formulaire de contact -->
+
+        <!--<template id="form-template">-->
+            <!--form c'est ensemnle de champs (ou controles de formulaires)-->
+            <form>
+                <div>
+                    <input type="text" name="name-ctrl" id="name-ctrl" placeholder="Votre nom...">
+                </div>
+
+                <div>
+                    <input type="text" name="name-ctrl" id="name-ctrl" placeholder="Votre email..." requierd>
+                </div>   
+                <div>
+                    <label>Objet de votre demande :</label>
+                    <textarea name="object-ctrl" id="object-ctrl"></textarea>
+                </div>
+                <div>
+                    <button id="send-btn" type="submit">Envoyer</button>
+                </div>
+            </form>
+        <!--</template>-->
+
+        <!-- Fin du template pour l'affichage du formulaire-->
     </body>
 </html><!-- Fin du document HTML-->
