@@ -90,6 +90,7 @@ nav button {
     color: var(--light);
 }
 
+
 .dropdown {
     color: var(--info);
 }
@@ -104,6 +105,21 @@ nav button {
     padding-bottom: 1em;
     padding: 1em 1em 1em 1em;
 }
+
+.btn-envoi{
+    height: 25px;
+    border: solid 1px var(--light);
+    color: var(--light);
+    background-color: var(--success);
+    border-radius: 0.3em;
+}
+
+form div button.btn-envoi:hover{
+    background-color: rgb(17, 124, 14);
+
+}
+
+
 
 .bg_light {
     background-color: var(--light);
